@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4708AD352965E6660005D518 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4708AD342965E6660005D518 /* TaskCell.swift */; };
+		4708AD372965E8730005D518 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4708AD362965E8730005D518 /* CheckBoxView.swift */; };
+		4708AD3A2965EA460005D518 /* TaskItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4708AD392965EA460005D518 /* TaskItemExtension.swift */; };
+		4708AD3C2965F6010005D518 /* DateScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4708AD3B2965F6010005D518 /* DateScroller.swift */; };
+		4708AD3E296855720005D518 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4708AD3D296855720005D518 /* NotificationManager.swift */; };
+		4708AD40296855A10005D518 /* NotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4708AD3F296855A10005D518 /* NotificationHelper.swift */; };
+		4708AD442968682F0005D518 /* NotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4708AD432968682F0005D518 /* NotManager.swift */; };
 		47853E292965902F009BD605 /* TodoListAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47853E282965902F009BD605 /* TodoListAppApp.swift */; };
 		47853E2B2965902F009BD605 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47853E2A2965902F009BD605 /* ContentView.swift */; };
 		47853E2D29659032009BD605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47853E2C29659032009BD605 /* Assets.xcassets */; };
 		47853E3029659032009BD605 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47853E2F29659032009BD605 /* Preview Assets.xcassets */; };
 		47853E3229659032009BD605 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47853E3129659032009BD605 /* Persistence.swift */; };
 		47853E3529659032009BD605 /* TodoListApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47853E3329659032009BD605 /* TodoListApp.xcdatamodeld */; };
+		47853E3C296596FB009BD605 /* NewTaskButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47853E3B296596FB009BD605 /* NewTaskButton.swift */; };
+		47853E3F296597EA009BD605 /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47853E3E296597EA009BD605 /* TaskEditView.swift */; };
+		47853E432965C2C4009BD605 /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47853E422965C2C4009BD605 /* DateHolder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4708AD342965E6660005D518 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		4708AD362965E8730005D518 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		4708AD392965EA460005D518 /* TaskItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemExtension.swift; sourceTree = "<group>"; };
+		4708AD3B2965F6010005D518 /* DateScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScroller.swift; sourceTree = "<group>"; };
+		4708AD3D296855720005D518 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		4708AD3F296855A10005D518 /* NotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHelper.swift; sourceTree = "<group>"; };
+		4708AD432968682F0005D518 /* NotManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotManager.swift; sourceTree = "<group>"; };
 		47853E252965902F009BD605 /* TodoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47853E282965902F009BD605 /* TodoListAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListAppApp.swift; sourceTree = "<group>"; };
 		47853E2A2965902F009BD605 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +40,9 @@
 		47853E2F29659032009BD605 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		47853E3129659032009BD605 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		47853E3429659032009BD605 /* TodoListApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodoListApp.xcdatamodel; sourceTree = "<group>"; };
+		47853E3B296596FB009BD605 /* NewTaskButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskButton.swift; sourceTree = "<group>"; };
+		47853E3E296597EA009BD605 /* TaskEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
+		47853E422965C2C4009BD605 /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +56,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4708AD382965E9C20005D518 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47853E422965C2C4009BD605 /* DateHolder.swift */,
+				47853E3129659032009BD605 /* Persistence.swift */,
+				4708AD392965EA460005D518 /* TaskItemExtension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		47853E1C2965902F009BD605 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				47853E282965902F009BD605 /* TodoListAppApp.swift */,
-				47853E2A2965902F009BD605 /* ContentView.swift */,
+				4708AD3D296855720005D518 /* NotificationManager.swift */,
+				4708AD3F296855A10005D518 /* NotificationHelper.swift */,
+				47853E3D296597B4009BD605 /* View */,
 				47853E2C29659032009BD605 /* Assets.xcassets */,
-				47853E3129659032009BD605 /* Persistence.swift */,
 				47853E3329659032009BD605 /* TodoListApp.xcdatamodeld */,
 				47853E2E29659032009BD605 /* Preview Content */,
 			);
@@ -71,6 +102,21 @@
 				47853E2F29659032009BD605 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		47853E3D296597B4009BD605 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47853E3E296597EA009BD605 /* TaskEditView.swift */,
+				47853E2A2965902F009BD605 /* ContentView.swift */,
+				4708AD432968682F0005D518 /* NotManager.swift */,
+				4708AD3B2965F6010005D518 /* DateScroller.swift */,
+				4708AD362965E8730005D518 /* CheckBoxView.swift */,
+				4708AD342965E6660005D518 /* TaskCell.swift */,
+				47853E3B296596FB009BD605 /* NewTaskButton.swift */,
+				4708AD382965E9C20005D518 /* Model */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +189,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47853E432965C2C4009BD605 /* DateHolder.swift in Sources */,
+				4708AD3A2965EA460005D518 /* TaskItemExtension.swift in Sources */,
+				47853E3F296597EA009BD605 /* TaskEditView.swift in Sources */,
 				47853E3229659032009BD605 /* Persistence.swift in Sources */,
+				47853E3C296596FB009BD605 /* NewTaskButton.swift in Sources */,
+				4708AD372965E8730005D518 /* CheckBoxView.swift in Sources */,
+				4708AD40296855A10005D518 /* NotificationHelper.swift in Sources */,
+				4708AD3E296855720005D518 /* NotificationManager.swift in Sources */,
+				4708AD352965E6660005D518 /* TaskCell.swift in Sources */,
+				4708AD3C2965F6010005D518 /* DateScroller.swift in Sources */,
 				47853E2B2965902F009BD605 /* ContentView.swift in Sources */,
+				4708AD442968682F0005D518 /* NotManager.swift in Sources */,
 				47853E292965902F009BD605 /* TodoListAppApp.swift in Sources */,
 				47853E3529659032009BD605 /* TodoListApp.xcdatamodeld in Sources */,
 			);
@@ -203,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -257,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,6 +339,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +369,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
